@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * student
  * I have are private parameters[
@@ -42,6 +44,12 @@ public class student {
         Birthdate = birthdate;
         this.address = address;
     }
+
+   ArrayList<studentcoure> Studentcourses = new ArrayList<>(); 
+
+
+
+
 
     
     @Override
