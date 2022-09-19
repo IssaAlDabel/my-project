@@ -44,9 +44,26 @@ public class student {
         Birthdate = birthdate;
         this.address = address;
     }
-
+   static ArrayList<student> Students= new ArrayList<>(); 
    ArrayList<studentcoure> Studentcourses = new ArrayList<>(); 
+  static void printAA(){
 
+    for (student item : Students) {
+        System.out.println(item.id);
+        System.out.println(item.firstname);
+         System.out.println(item.lastname);
+         System.out.println(item.phone);
+         System.out.println(item.Birthdate);
+        System.out.println(item.address);
+
+
+
+    }
+
+
+
+
+}
 
 
 
